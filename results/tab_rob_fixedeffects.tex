@@ -1,0 +1,38 @@
+\begin{table}
+\centering
+\begin{tabular}[t]{lcccc}
+\toprule
+  & (1) & (2) & (3) & (4)\\
+\midrule
+pop\_origin & \num{-0.381} & \num{-0.243} & \num{-0.536} & \num{-0.562}**\\
+ & (\num{0.612}) & (\num{0.648}) & (\num{0.758}) & (\num{0.178})\\
+gov\_brief &  &  & \num{-1.482}*** & \num{-1.448}***\\
+ &  &  & (\num{0.300}) & (\num{0.289})\\
+security &  &  & \num{-1.595}* & \\
+ &  &  & (\num{0.654}) & \\
+migration &  &  & \num{-0.156} & \\
+ &  &  & (\num{0.351}) & \\
+social &  &  & \num{0.303} & \\
+ &  &  & (\num{0.201}) & \\
+court &  &  & \num{0.662}* & \num{0.576}*\\
+ &  &  & (\num{0.251}) & (\num{0.251})\\
+politician &  &  & \num{-1.186}* & \num{-1.169}*\\
+ &  &  & (\num{0.465}) & (\num{0.477})\\
+pop\_policy &  &  &  & \num{0.027}\\
+ &  &  &  & (\num{0.146})\\
+pop\_origin × pop\_policy &  &  &  & \num{-0.004}\\
+ &  &  &  & (\num{1.262})\\
+\midrule
+Num.Obs. & \num{1200} & \num{1198} & \num{1178} & \num{1178}\\
+R2 & \num{0.058} & \num{0.122} & \num{0.203} & \num{0.191}\\
+R2 Adj. & \num{0.038} & \num{0.056} & \num{0.130} & \num{0.120}\\
+R2 Within & \num{0.0006} & \num{0.0002} & \num{0.091} & \num{0.078}\\
+R2 Within Adj. & \num{-0.0007} & \num{-0.001} & \num{0.081} & \num{0.069}\\
+RMSE & \num{0.48} & \num{0.46} & \num{0.43} & \num{0.44}\\
+Std.Errors & by: government & by: government & by: government & by: government\\
+FE: government & X & X & X & X\\
+FE: date &  & X & X & X\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}+ p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, *** p $<$ 0.001}\\
+\end{tabular}
+\end{table}
