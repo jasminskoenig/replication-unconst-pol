@@ -23,10 +23,10 @@ The replication files consist of
 
 All tables (with the exception of table 1) and figures (with the exception of figure 1 and 12) in the paper were generated using R. 
 
-To replicate figures 2-5 in the main text, run main_all_figures.R. 
-To replicate tables 2-3 in the main text, run main_all_tables.R. 
-To replicate figures 6-11 in the appendix, run app_all_figures.R.
-To replicate tables 4-8 in the appendix, run app_all_tables.R.
+- To replicate figures 2-5 in the main text, run main_all_figures.R. 
+- To replicate tables 2-3 in the main text, run main_all_tables.R. 
+- To replicate figures 6-11 in the appendix, run app_all_figures.R.
+- To replicate tables 4-8 in the appendix, run app_all_tables.R.
 
 
 
